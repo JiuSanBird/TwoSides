@@ -1,0 +1,271 @@
+[
+  {
+    "id": "407",
+    "name": "更快",
+    "className": "Faster",
+    "rarity": 0,
+    "label": [],
+    "describe": "第一个技能|冷却上限|-{参数}",
+    "par": [
+      1
+    ]
+  },
+  {
+    "id": "408",
+    "name": "更大",
+    "className": "Bigger",
+    "rarity": 0,
+    "label": [],
+    "describe": "第一个技能影响范围+{参数}",
+    "par": [
+      1
+    ]
+  },
+  {
+    "id": "409",
+    "name": "更强",
+    "className": "Stronger",
+    "rarity": 0,
+    "label": [],
+    "describe": "第一个技能|效益|+{参数}%",
+    "par": [
+      50
+    ]
+  },
+  {
+    "id": "410",
+    "name": "强硬",
+    "className": "Strong1",
+    "rarity": 0,
+    "label": [
+      4
+    ],
+    "describe": "技能|效益|+{参数}%",
+    "par": [
+      20
+    ]
+  },
+  {
+    "id": "411",
+    "name": "强硬+",
+    "className": "Strong2",
+    "rarity": 1,
+    "label": [
+      4
+    ],
+    "describe": "技能|效益|+{参数}%",
+    "par": [
+      40
+    ]
+  },
+  {
+    "id": "412",
+    "name": "强硬++",
+    "className": "Strong3",
+    "rarity": 2,
+    "label": [
+      4
+    ],
+    "describe": "技能|效益|+{参数}%",
+    "par": [
+      60
+    ]
+  },
+  {
+    "id": "413",
+    "name": "软弱",
+    "className": "Weakness1",
+    "rarity": 0,
+    "label": [
+      4,
+      15
+    ],
+    "describe": "技能|效益|-{参数}%",
+    "par": [
+      20
+    ]
+  },
+  {
+    "id": "414",
+    "name": "软弱-",
+    "className": "Weakness2",
+    "rarity": 1,
+    "label": [
+      4,
+      15
+    ],
+    "describe": "技能|效益|-{参数}%",
+    "par": [
+      40
+    ]
+  },
+  {
+    "id": "415",
+    "name": "软弱--",
+    "className": "Weakness3",
+    "rarity": 2,
+    "label": [
+      4,
+      15
+    ],
+    "describe": "技能|效益|-{参数}%",
+    "par": [
+      60
+    ]
+  },
+  {
+    "id": "459",
+    "name": "秽病",
+    "className": "NewRubbishDisease",
+    "rarity": 4,
+    "label": [
+      12
+    ],
+    "describe": "进入夜黑时,压力+{参数},有{参数}%概率传染给队友,有{参数}%治愈|秽病|",
+    "par": [
+      10,
+      10,
+      20
+    ]
+  },
+  {
+    "id": "526",
+    "name": "内测先锋",
+    "className": "PrivatePioneer",
+    "rarity": 0,
+    "label": [
+      0
+    ],
+    "describe": "\"真正的勇士,敢于面对惨淡的内测,敢于正视奇怪的BUG!\"\n|勇气|+{参数}",
+    "par": [
+      10
+    ]
+  },
+  {
+    "id": "001",
+    "name": "赤手空拳",
+    "className": "Barehanded",
+    "rarity": 0,
+    "label": [],
+    "describe": "表明其进攻方式,用于响应被动效果\n这与|持枪证|矛盾",
+    "par": []
+  },
+  {
+    "id": "002",
+    "name": "持枪证",
+    "className": "GunCertificate",
+    "rarity": 0,
+    "label": [],
+    "describe": "这并不是可合法配置枪支的法律凭证,而是ta真的有一把枪的凭证\n这与|赤手空拳|矛盾",
+    "par": []
+  },
+  {
+    "id": "005",
+    "name": "年少",
+    "className": "Young",
+    "rarity": 0,
+    "label": [
+      2
+    ],
+    "describe": "这个单位尚未成年,智核更难左右其情绪,智核抗性+{参数}",
+    "par": [
+      5
+    ]
+  },
+  {
+    "id": "042",
+    "name": "爬行",
+    "className": "Crawl",
+    "rarity": 1,
+    "label": [
+      4
+    ],
+    "describe": "移动距离+{参数}",
+    "par": [
+      1
+    ]
+  },
+  {
+    "id": "044",
+    "name": "双击",
+    "className": "DoubleStrike",
+    "rarity": 2,
+    "label": [
+      4
+    ],
+    "describe": "基础概率为{参数}%\n进攻后触发概率+{参数}%\n触发后概率归零\n触发效果:再次进攻",
+    "par": [
+      0,
+      50
+    ]
+  },
+  {
+    "id": "046",
+    "name": "蓄势打击",
+    "className": "ChargedStrike",
+    "rarity": 4,
+    "label": [
+      4,
+      18
+    ],
+    "describe": "攻击敌我不分,|延时|,选定位置而非单位,伤害+{参数}%",
+    "par": [
+      50
+    ]
+  },
+  {
+    "id": "049",
+    "name": "狂潮",
+    "className": "Frenzy",
+    "rarity": 7,
+    "label": [],
+    "describe": "进攻有#(己方狂潮数量 * {参数})#%概率触发狂潮\n触发效果:\n刷新|扑脸|,|冲击|,|毁灭冲击|,|啃咬|\n如果可以,下次必定触发|双击|\n己方狂潮立即|跟随|一次行动",
+    "par": [
+      10
+    ]
+  },
+  {
+    "id": "101",
+    "name": "呼朋唤友",
+    "className": "GatherFriends",
+    "rarity": 6,
+    "label": [
+      5,
+      3,
+      2
+    ],
+    "describe": "|生命值|低于{参数}%时|召唤|(同族, 继承, {参数}){参数}个",
+    "par": [
+      50,
+      10,
+      2
+    ]
+  },
+  {
+    "id": "129",
+    "name": "性情大变",
+    "className": "DrasticPersonalityChange",
+    "rarity": 10,
+    "label": [
+      2
+    ],
+    "describe": "|璃|初次目睹|死亡|后将性情大变\n|生命值系数|+{参数}\n|攻击力系数|+{参数}\n|攻击距离|+{参数}\n获得|雪上加霜|,|打靶|",
+    "par": [
+      125,
+      300,
+      3,
+      1
+    ]
+  },
+  {
+    "id": "130",
+    "name": "雪上加霜",
+    "className": "AddingInsultToInjury",
+    "rarity": 7,
+    "label": [],
+    "describe": "如果进攻击碎目标的|易碎|状态,那么将重复进攻\n如果进攻|暴击|,|暴击概率|+{参数}%",
+    "par": [
+      10
+    ]
+  }
+]

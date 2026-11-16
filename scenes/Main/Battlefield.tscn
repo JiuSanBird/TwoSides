@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bxjgq305dlwfk"]
+
+[ext_resource type="Texture2D" uid="uid://bsw8goglwq03w" path="res://assets/art/UI/Backgrounds/battle_map.png" id="1_yly1u"]
+[ext_resource type="PackedScene" uid="uid://dp8gpkvk00lqj" path="res://scenes/UI/PauseMenu.tscn" id="2_lqcwc"]
+
+[node name="Battlefield" type="Node2D" unique_id=1932975256]
+
+[node name="Ground" type="Sprite2D" parent="." unique_id=2025631765]
+texture = ExtResource("1_yly1u")
+centered = false
+
+[node name="Audio" type="Node" parent="." unique_id=2038771755]
+
+[node name="PauseMenu" parent="." unique_id=1295119423 instance=ExtResource("2_lqcwc")]
+visible = false

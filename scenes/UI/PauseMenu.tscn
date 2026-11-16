@@ -1,0 +1,179 @@
+[gd_scene format=3 uid="uid://dp8gpkvk00lqj"]
+
+[ext_resource type="Script" uid="uid://dpsw4fp4j6erk" path="res://scripts/Godot/UI/PauseMenu/PauseMenu.cs" id="1_73e60"]
+[ext_resource type="Theme" uid="uid://drso6dscvjbek" path="res://assets/themes/pause_menu.tres" id="1_theme"]
+[ext_resource type="Texture2D" uid="uid://bscgfi0uyd652" path="res://assets/art/UI/OverallUI/divider.png" id="2_divider"]
+[ext_resource type="Script" uid="uid://dd0rf3w4q6u2w" path="res://scripts/Godot/UI/PauseMenu/RestartButton.cs" id="4_onjwa"]
+[ext_resource type="Theme" uid="uid://dpcyiubq2p4iw" path="res://assets/themes/main_menu.tres" id="4_theme"]
+[ext_resource type="Script" uid="uid://bsc612khkrkcg" path="res://scripts/Godot/UI/MenuScreen/QuitButton.cs" id="6_onjwa"]
+
+[node name="PauseMenu" type="CanvasLayer" unique_id=1295119423]
+process_mode = 3
+layer = 50
+script = ExtResource("1_73e60")
+
+[node name="Root" type="Control" parent="." unique_id=1875713566]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dim" type="ColorRect" parent="Root" unique_id=1787907151]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.02, 0.016, 0.012, 0.68)
+
+[node name="Menu" type="VBoxContainer" parent="Root" unique_id=429438387]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -120.0
+offset_top = -347.5
+offset_right = 120.0
+offset_bottom = 347.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_theme")
+theme_override_constants/separation = 14
+
+[node name="Title" type="Label" parent="Root/Menu" unique_id=249079598]
+custom_minimum_size = Vector2(240, 80)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.925, 0.839, 0.678, 1)
+theme_override_colors/font_outline_color = Color(0.086, 0.051, 0.024, 1)
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 56
+text = "暂停"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Divider" type="TextureRect" parent="Root/Menu" unique_id=1065100516]
+custom_minimum_size = Vector2(240, 85)
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("2_divider")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ContinueButton" type="Button" parent="Root/Menu" unique_id=1529525575]
+custom_minimum_size = Vector2(240, 115)
+layout_mode = 2
+focus_neighbor_top = NodePath("../QuitButton")
+focus_neighbor_bottom = NodePath("../RulesButton")
+mouse_default_cursor_shape = 2
+text = "继续游戏"
+
+[node name="RulesButton" type="Button" parent="Root/Menu" unique_id=1733678140]
+custom_minimum_size = Vector2(240, 115)
+layout_mode = 2
+focus_neighbor_top = NodePath("../ContinueButton")
+focus_neighbor_bottom = NodePath("../RestartButton")
+mouse_default_cursor_shape = 2
+text = "规则"
+
+[node name="RestartButton" type="Button" parent="Root/Menu" unique_id=144448241]
+custom_minimum_size = Vector2(240, 115)
+layout_mode = 2
+focus_neighbor_top = NodePath("../RulesButton")
+focus_neighbor_bottom = NodePath("../QuitButton")
+mouse_default_cursor_shape = 2
+text = "重新开始"
+script = ExtResource("4_onjwa")
+
+[node name="QuitButton" type="Button" parent="Root/Menu" unique_id=1393553937]
+custom_minimum_size = Vector2(240, 115)
+layout_mode = 2
+focus_neighbor_top = NodePath("../RestartButton")
+focus_neighbor_bottom = NodePath("../ContinueButton")
+mouse_default_cursor_shape = 2
+text = "退出游戏"
+
+[node name="ConfirmPage" type="Control" parent="Root" unique_id=1975587968]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dim" type="ColorRect" parent="Root/ConfirmPage" unique_id=2105050611]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.019607844, 0.015686275, 0.011764706, 0.9137255)
+
+[node name="Page" type="VBoxContainer" parent="Root/ConfirmPage" unique_id=597835421]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -248.0
+offset_top = -133.0
+offset_right = 248.0
+offset_bottom = 133.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("4_theme")
+theme_override_constants/separation = 14
+
+[node name="Question" type="Label" parent="Root/ConfirmPage/Page" unique_id=356473907]
+custom_minimum_size = Vector2(496, 72)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.925, 0.839, 0.678, 1)
+theme_override_colors/font_outline_color = Color(0.086, 0.051, 0.024, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 37
+text = "确定要退出游戏吗？"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Divider" type="TextureRect" parent="Root/ConfirmPage/Page" unique_id=572099353]
+custom_minimum_size = Vector2(496, 74)
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("2_divider")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Buttons" type="HBoxContainer" parent="Root/ConfirmPage/Page" unique_id=1232329488]
+custom_minimum_size = Vector2(496, 92)
+layout_mode = 2
+theme_override_constants/separation = 22
+alignment = 1
+
+[node name="ConfirmButton" type="Button" parent="Root/ConfirmPage/Page/Buttons" unique_id=869832745]
+custom_minimum_size = Vector2(192, 92)
+layout_mode = 2
+focus_neighbor_left = NodePath("../CancelButton")
+focus_neighbor_right = NodePath("../CancelButton")
+mouse_default_cursor_shape = 2
+text = "确定"
+script = ExtResource("6_onjwa")
+
+[node name="CancelButton" type="Button" parent="Root/ConfirmPage/Page/Buttons" unique_id=803413013]
+custom_minimum_size = Vector2(192, 92)
+layout_mode = 2
+focus_neighbor_left = NodePath("../ConfirmButton")
+focus_neighbor_right = NodePath("../ConfirmButton")
+mouse_default_cursor_shape = 2
+text = "取消"
+
+[connection signal="visibility_changed" from="." to="." method="OnVisibleChange"]
+[connection signal="pressed" from="Root/Menu/ContinueButton" to="." method="hide"]
+[connection signal="pressed" from="Root/Menu/QuitButton" to="Root/ConfirmPage" method="show"]
+[connection signal="pressed" from="Root/ConfirmPage/Page/Buttons/CancelButton" to="Root/ConfirmPage" method="hide"]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3",
+    "name": "平安喜乐",
+    "className": "PeaceAndJoy",
+    "probability": 25,
+    "describe": "无事发生",
+    "par": []
+  },
+  {
+    "id": "4",
+    "name": "肉体崩坏",
+    "className": "PhysicalDecay",
+    "probability": 30,
+    "describe": "受到{参数}%百分比伤害",
+    "par": [
+      50
+    ]
+  },
+  {
+    "id": "6",
+    "name": "半死不活",
+    "className": "HalfDead",
+    "probability": 15,
+    "describe": "变为常态\n有{参数}%几率获得|完美化|前缀\n|完美激化度|+{参数}",
+    "par": [
+      20,
+      1
+    ]
+  },
+  {
+    "id": "7",
+    "name": "朽骨重肉",
+    "className": "DecayToFlesh",
+    "probability": 15,
+    "describe": "成为净土\n|瘤化值|-{参数}\n有{参数}%几率获得|光明化|前缀,|烛明教|徒概率翻倍",
+    "par": [
+      50,
+      20
+    ]
+  },
+  {
+    "id": "8",
+    "name": "精神崩溃",
+    "className": "MentaBreakdown",
+    "probability": 15,
+    "describe": "成为秽土\n有{参数}%几率进入|红眼化|\n有{参数}%几率进入|癌脓化|\n有{参数}%几率进入|元素化|,体内元素核心占比越高,额外概率越高",
+    "par": [
+      20,
+      20,
+      20
+    ]
+  }
+]

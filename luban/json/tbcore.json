@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "name": "常态核心",
+    "className": "Normalcy",
+    "rarity": 0,
+    "label": 0,
+    "describe": "|生命值上限|+{参数}\n|攻击力|+{参数}",
+    "par": [
+      50,
+      10
+    ]
+  }
+]

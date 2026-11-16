@@ -1,0 +1,357 @@
+[
+  {
+    "id": "401",
+    "name": "占位符",
+    "unitType": 0,
+    "ms": 0,
+    "label": [
+      0
+    ],
+    "rarity": 0,
+    "raceName": "无族之物",
+    "hpCoef": 100,
+    "atkCoef": 100,
+    "atkDistance": 0,
+    "volume": 1,
+    "response": 0,
+    "state": [
+      "禁锢(20)",
+      "缴械(20)"
+    ],
+    "entry": [
+      "无"
+    ],
+    "skill": [
+      "无"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "101",
+    "name": "常人",
+    "unitType": 1,
+    "ms": 0,
+    "label": [
+      0
+    ],
+    "rarity": 0,
+    "raceName": "人",
+    "hpCoef": 100,
+    "atkCoef": 100,
+    "atkDistance": 1,
+    "volume": 1,
+    "response": 10,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "赤手空拳"
+    ],
+    "skill": [
+      "行进"
+    ],
+    "pbe": "无名之辈"
+  },
+  {
+    "id": "105",
+    "name": "剑士",
+    "unitType": 1,
+    "ms": 0,
+    "label": [],
+    "rarity": 1,
+    "raceName": "人",
+    "hpCoef": 110,
+    "atkCoef": 110,
+    "atkDistance": 1,
+    "volume": 1,
+    "response": 13,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "无"
+    ],
+    "skill": [
+      "行进",
+      "拙劣顺劈"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "107",
+    "name": "弓箭手",
+    "unitType": 1,
+    "ms": 0,
+    "label": [],
+    "rarity": 1,
+    "raceName": "人",
+    "hpCoef": 100,
+    "atkCoef": 105,
+    "atkDistance": 4,
+    "volume": 1,
+    "response": 10,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "无"
+    ],
+    "skill": [
+      "击退射杀"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "35",
+    "name": "",
+    "unitType": 0,
+    "ms": 0,
+    "label": [],
+    "rarity": 0,
+    "raceName": "",
+    "hpCoef": 0,
+    "atkCoef": 0,
+    "atkDistance": 0,
+    "volume": 0,
+    "response": 0,
+    "state": [],
+    "entry": [],
+    "skill": [],
+    "pbe": ""
+  },
+  {
+    "id": "204",
+    "name": "爬行秽土",
+    "unitType": 1,
+    "ms": 1,
+    "label": [],
+    "rarity": 0,
+    "raceName": "人",
+    "hpCoef": 75,
+    "atkCoef": 75,
+    "atkDistance": 1,
+    "volume": 1,
+    "response": 20,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "狂潮",
+      "爬行"
+    ],
+    "skill": [
+      "扑脸"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "205",
+    "name": "人型秽土",
+    "unitType": 1,
+    "ms": 1,
+    "label": [
+      0
+    ],
+    "rarity": 1,
+    "raceName": "人",
+    "hpCoef": 100,
+    "atkCoef": 100,
+    "atkDistance": 1,
+    "volume": 1,
+    "response": 13,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "狂潮",
+      "双击"
+    ],
+    "skill": [
+      "扑脸"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "207",
+    "name": "尖啸秽土",
+    "unitType": 1,
+    "ms": 1,
+    "label": [],
+    "rarity": 3,
+    "raceName": "人",
+    "hpCoef": 75,
+    "atkCoef": 75,
+    "atkDistance": 2,
+    "volume": 1,
+    "response": 13,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "狂潮",
+      "双击"
+    ],
+    "skill": [
+      "恐怖尖啸",
+      "盛怒尖啸"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "301",
+    "name": "巨剑士",
+    "unitType": 1,
+    "ms": 2,
+    "label": [
+      0
+    ],
+    "rarity": 2,
+    "raceName": "人",
+    "hpCoef": 120,
+    "atkCoef": 120,
+    "atkDistance": 1,
+    "volume": 1,
+    "response": 10,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "蓄势打击"
+    ],
+    "skill": [
+      "拙劣顺劈"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "307",
+    "name": "标枪兵",
+    "unitType": 1,
+    "ms": 2,
+    "label": [],
+    "rarity": 5,
+    "raceName": "人",
+    "hpCoef": 100,
+    "atkCoef": 120,
+    "atkDistance": 2,
+    "volume": 1,
+    "response": 10,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "无"
+    ],
+    "skill": [
+      "瞄准",
+      "贯穿"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "001",
+    "name": "婪商",
+    "unitType": 2,
+    "ms": 1,
+    "label": [
+      0
+    ],
+    "rarity": 0,
+    "raceName": "人",
+    "hpCoef": 150,
+    "atkCoef": 150,
+    "atkDistance": 1,
+    "volume": 1,
+    "response": 10,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "恶魔契约",
+      "魔界之门"
+    ],
+    "skill": [
+      "啃咬",
+      "魔王之意"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "009",
+    "name": "诺亚",
+    "unitType": 2,
+    "ms": 0,
+    "label": [],
+    "rarity": 7,
+    "raceName": "人",
+    "hpCoef": 200,
+    "atkCoef": 200,
+    "atkDistance": 1,
+    "volume": 1,
+    "response": 20,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "呼朋唤友",
+      "组织领袖"
+    ],
+    "skill": [
+      "行进",
+      "艳阳高照",
+      "日光审判"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "017",
+    "name": "璃",
+    "unitType": 2,
+    "ms": 2,
+    "label": [],
+    "rarity": 4,
+    "raceName": "人",
+    "hpCoef": 75,
+    "atkCoef": 125,
+    "atkDistance": 2,
+    "volume": 1,
+    "response": 15,
+    "state": [
+      "易碎(99)"
+    ],
+    "entry": [
+      "雪中人",
+      "年少",
+      "性情大变"
+    ],
+    "skill": [
+      "击退射杀"
+    ],
+    "pbe": ""
+  },
+  {
+    "id": "038",
+    "name": "收藏家",
+    "unitType": 2,
+    "ms": 1,
+    "label": [],
+    "rarity": 2,
+    "raceName": "人",
+    "hpCoef": 350,
+    "atkCoef": 225,
+    "atkDistance": 1,
+    "volume": 1,
+    "response": 15,
+    "state": [
+      "无"
+    ],
+    "entry": [
+      "呼朋唤友"
+    ],
+    "skill": [
+      "藏品展示",
+      "藏品挑选"
+    ],
+    "pbe": ""
+  }
+]

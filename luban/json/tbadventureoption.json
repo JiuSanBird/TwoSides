@@ -1,0 +1,18 @@
+[
+  {
+	"id": "1",
+	"name": "离开",
+	"className": "",
+	"repeatable": false,
+	"describe": "结束事件",
+	"par": []
+  },
+  {
+	"id": "2",
+	"name": "进店",
+	"className": "EnterShop",
+	"repeatable": false,
+	"describe": "商城",
+	"par": []
+  }
+]

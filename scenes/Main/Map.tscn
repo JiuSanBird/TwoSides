@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cx57chv7p868g"]
+
+[ext_resource type="Texture2D" uid="uid://ba4xhpuji3r7i" path="res://assets/art/Groud/background.png" id="1_4awat"]
+[ext_resource type="PackedScene" uid="uid://dp8gpkvk00lqj" path="res://scenes/UI/PauseMenu.tscn" id="1_rin3a"]
+
+[node name="Map" type="Node2D" unique_id=42542617]
+
+[node name="Ground" type="Sprite2D" parent="." unique_id=1525138378]
+texture = ExtResource("1_4awat")
+centered = false
+
+[node name="Audio" type="Node" parent="." unique_id=1444998759]
+
+[node name="PauseMenu" parent="." unique_id=1295119423 instance=ExtResource("1_rin3a")]
+visible = false

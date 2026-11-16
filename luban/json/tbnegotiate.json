@@ -1,0 +1,45 @@
+[
+  {
+    "id": "1",
+    "name": "聊天",
+    "className": "Chat",
+    "toWho": [
+      "所有"
+    ],
+    "needRelationship": false,
+    "needCom": true,
+    "repeatable": false,
+    "describe": "|好感度|+{参数}\n这不会结束对话",
+    "par": [
+      1
+    ]
+  },
+  {
+    "id": "2",
+    "name": "开战",
+    "className": "War",
+    "toWho": [
+      "所有"
+    ],
+    "needRelationship": false,
+    "needCom": false,
+    "repeatable": false,
+    "describe": "与其开战",
+    "par": []
+  },
+  {
+    "id": "3",
+    "name": "雇佣",
+    "className": "Invite",
+    "toWho": [
+      "所有"
+    ],
+    "needRelationship": false,
+    "needCom": true,
+    "repeatable": false,
+    "describe": "邀请其加入队伍\n价格 : #|稀有度| * {参数}#\n(如果是特殊单位+50,\n如果关系不是友好 + 100\n已有队友+40 * 队友数\n有传说词条+100)",
+    "par": [
+      10
+    ]
+  }
+]

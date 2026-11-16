@@ -1,0 +1,56 @@
+[
+  {
+    "id": "16",
+    "name": "禁锢",
+    "className": "ImprisonmentState",
+    "maxPlies": 20,
+    "isPassive": true,
+    "isElapse": false,
+    "describe": "无法移动,包括|特殊位移|\n|延时|行为也会被抵消",
+    "par": []
+  },
+  {
+    "id": "17",
+    "name": "缴械",
+    "className": "DisarmState",
+    "maxPlies": 20,
+    "isPassive": true,
+    "isElapse": false,
+    "describe": "无法进攻,包括|特殊进攻\n|延时|行为也会被抵消",
+    "par": []
+  },
+  {
+    "id": "21",
+    "name": "易碎",
+    "className": "FragileState",
+    "maxPlies": 100,
+    "isPassive": true,
+    "isElapse": false,
+    "describe": "如果受到的伤害小于|易碎|值,那么将伤害改为|易碎|值;\n如果受到的伤害不小于|易碎|值,那么将额外造成#(|易碎|值)#伤害;\n(最终伤害 = 伤害 <  易碎值 ? 易碎值 : 伤害 + 易碎值)\n触发后失去此状态",
+    "par": []
+  },
+  {
+    "id": "22",
+    "name": "流血",
+    "className": "BleedState",
+    "maxPlies": 100,
+    "isPassive": true,
+    "isElapse": true,
+    "describe": "移动,流失#|流血|层数#点生命值\n回合开始,|流血|层数减半,流失#|流血|层数#点生命值,",
+    "par": []
+  },
+  {
+    "id": "23",
+    "name": "恐惧",
+    "className": "FearState",
+    "maxPlies": 1,
+    "isPassive": true,
+    "isElapse": true,
+    "describe": "被施加时,强制转向\n进攻伤害-{参数}%\n|暴击概率|-{参数}%\n|命中率|-{参数}%",
+    "par": [
+      25,
+      25,
+      25
+    ]
+  }
+]

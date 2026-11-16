@@ -1,0 +1,91 @@
+[
+  {
+    "id": "2",
+    "name": "一捧土",
+    "className": "Soil",
+    "rarity": 0,
+    "label": [
+      0
+    ],
+    "isConsumables": true,
+    "clickable": true,
+    "isStackable": true,
+    "aICanOwn": true,
+    "effectScope": 0,
+    "selectDistance": 3,
+    "describe": "使目标|视距|-{参数},持续{参数}回合",
+    "par": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "3",
+    "name": "风之助",
+    "className": "WindHelp",
+    "rarity": 0,
+    "label": [
+      0
+    ],
+    "isConsumables": true,
+    "clickable": true,
+    "isStackable": true,
+    "aICanOwn": true,
+    "effectScope": 0,
+    "selectDistance": 1,
+    "describe": "向指定方向推进",
+    "par": []
+  },
+  {
+    "id": "4",
+    "name": "捆绳",
+    "className": "",
+    "rarity": 0,
+    "label": [
+      0
+    ],
+    "isConsumables": true,
+    "clickable": true,
+    "isStackable": true,
+    "aICanOwn": true,
+    "effectScope": 0,
+    "selectDistance": 2,
+    "describe": "扔出捆绳, |禁锢|目标",
+    "par": []
+  },
+  {
+    "id": "29",
+    "name": "优惠卷",
+    "className": "Coupon",
+    "rarity": 0,
+    "label": [
+      8
+    ],
+    "isConsumables": true,
+    "clickable": false,
+    "isStackable": false,
+    "aICanOwn": false,
+    "effectScope": -1,
+    "selectDistance": 0,
+    "describe": "\"就算亏本,婪商也要把优惠送给家人们\"\n购买商品时,满#??#粉尘,减免#??#粉尘\n剩余有效期:#??#标准时",
+    "par": []
+  },
+  {
+    "id": "58",
+    "name": "书籍",
+    "className": "Book",
+    "rarity": 6,
+    "label": [
+      0,
+      8
+    ],
+    "isConsumables": true,
+    "clickable": true,
+    "isStackable": false,
+    "aICanOwn": true,
+    "effectScope": -1,
+    "selectDistance": 0,
+    "describe": "习得#相应词条或技能#",
+    "par": []
+  }
+]

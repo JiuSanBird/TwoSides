@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "了无人烟",
+    "probability": 10
+  },
+  {
+    "id": "2",
+    "name": "羊肠小道",
+    "probability": 7
+  },
+  {
+    "id": "3",
+    "name": "单位",
+    "probability": 25
+  },
+  {
+    "id": "4",
+    "name": "特殊单位",
+    "probability": 15
+  },
+  {
+    "id": "5",
+    "name": "疯狂的单位",
+    "probability": 10
+  },
+  {
+    "id": "6",
+    "name": "奇遇",
+    "probability": 15
+  },
+  {
+    "id": "7",
+    "name": "战利品",
+    "probability": 15
+  },
+  {
+    "id": "8",
+    "name": "地区",
+    "probability": 3
+  },
+  {
+    "id": "9",
+    "name": "混沌体",
+    "probability": 0
+  }
+]

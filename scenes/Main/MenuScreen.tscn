@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://cd6fjkynmpxsj"]
+
+[ext_resource type="Script" uid="uid://c6do816dplmiw" path="res://scripts/Godot/MenuScreen/MenuScreen.cs" id="1_a6peq"]
+[ext_resource type="Script" uid="uid://doywjmyr6l3j" path="res://scripts/Utility/Helpers/Test.cs" id="1_r8m1o"]
+[ext_resource type="Texture2D" uid="uid://bo0mg53mw4thx" path="res://assets/art/UI/Backgrounds/start_screen_no_text.png" id="2_fn77n"]
+[ext_resource type="Theme" uid="uid://dpcyiubq2p4iw" path="res://assets/themes/main_menu.tres" id="3_theme"]
+[ext_resource type="Script" uid="uid://cdk0uy8fgc15q" path="res://scripts/Godot/UI/MenuScreen/StartButton.cs" id="5_25ole"]
+[ext_resource type="Script" uid="uid://bsc612khkrkcg" path="res://scripts/Godot/UI/MenuScreen/QuitButton.cs" id="6_ty1yq"]
+
+[node name="MenuScreen" type="Node2D" unique_id=265461977]
+script = ExtResource("1_a6peq")
+
+[node name="Test" type="Node" parent="." unique_id=102066608]
+script = ExtResource("1_r8m1o")
+
+[node name="Ground" type="Sprite2D" parent="." unique_id=799744755]
+texture = ExtResource("2_fn77n")
+centered = false
+
+[node name="Audio" type="Node" parent="." unique_id=1714758700]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1183853668]
+
+[node name="Root" type="Control" parent="UI" unique_id=10953230]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+
+[node name="MenuButtons" type="VBoxContainer" parent="UI/Root" unique_id=1330425035]
+layout_mode = 0
+offset_left = 866.0
+offset_top = 217.0
+offset_right = 1054.0
+offset_bottom = 607.0
+theme = ExtResource("3_theme")
+theme_override_constants/separation = 10
+
+[node name="StartButton" type="Button" parent="UI/Root/MenuButtons" unique_id=1859631345]
+custom_minimum_size = Vector2(188, 90)
+layout_mode = 2
+focus_neighbor_top = NodePath("../QuitButton")
+focus_neighbor_bottom = NodePath("../AchievementButton")
+mouse_default_cursor_shape = 2
+text = "开始游戏"
+script = ExtResource("5_25ole")
+
+[node name="AchievementButton" type="Button" parent="UI/Root/MenuButtons" unique_id=838258020]
+custom_minimum_size = Vector2(188, 90)
+layout_mode = 2
+focus_neighbor_top = NodePath("../StartButton")
+focus_neighbor_bottom = NodePath("../RulesButton")
+mouse_default_cursor_shape = 2
+text = "成就"
+
+[node name="RulesButton" type="Button" parent="UI/Root/MenuButtons" unique_id=1482398031]
+custom_minimum_size = Vector2(188, 90)
+layout_mode = 2
+focus_neighbor_top = NodePath("../AchievementButton")
+focus_neighbor_bottom = NodePath("../QuitButton")
+mouse_default_cursor_shape = 2
+text = "规则"
+
+[node name="QuitButton" type="Button" parent="UI/Root/MenuButtons" unique_id=1408886948]
+custom_minimum_size = Vector2(188, 90)
+layout_mode = 2
+focus_neighbor_top = NodePath("../RulesButton")
+focus_neighbor_bottom = NodePath("../StartButton")
+mouse_default_cursor_shape = 2
+text = "退出游戏"
+script = ExtResource("6_ty1yq")

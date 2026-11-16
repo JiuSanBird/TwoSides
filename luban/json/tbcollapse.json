@@ -1,0 +1,14 @@
+[
+  {
+	"id": "1",
+	"name": "强买强卖",
+	"className": "ForceTrade",
+	"rarity": 0,
+	"collapseLabel": [
+	  0
+	],
+	"maxPlies": 10,
+	"describe": "如果遇到婪商则必须购物,否则将触发战斗,婪商将会根据你的剩余粉尘获得加强\n立即触发一次商店",
+	"par": []
+  }
+]

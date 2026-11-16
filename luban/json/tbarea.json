@@ -1,0 +1,17 @@
+[
+  {
+	"id": "1",
+	"name": "庸城愚市",
+	"className": "OrdinaryCity",
+	"unlock": 0,
+	"rarity": 0,
+	"rrc": [],
+	"trc": [],
+	"arc": [],
+	"tp": 0,
+	"haveStonehenge": true,
+	"intensity": 0,
+	"describe": "无",
+	"par": []
+  }
+]

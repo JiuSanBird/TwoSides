@@ -1,0 +1,30 @@
+[
+  {
+    "id": "01",
+    "name": "无族之物",
+    "className": "NoRace",
+    "unlock": 2,
+    "rarity": 10,
+    "isPet": false,
+    "entry": [
+      "无关紧要"
+    ],
+    "skill": [
+      "无"
+    ]
+  },
+  {
+    "id": "02",
+    "name": "人",
+    "className": "Terran",
+    "unlock": 1,
+    "rarity": 0,
+    "isPet": false,
+    "entry": [
+      "无"
+    ],
+    "skill": [
+      "无"
+    ]
+  }
+]

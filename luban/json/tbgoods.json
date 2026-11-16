@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "name": "婪商秘药",
+    "className": "GreedyBusinessmanNostrum",
+    "unlock": 1,
+    "probability": 10,
+    "cost": 10,
+    "describe": "全队|生命值|+20%"
+  },
+  {
+    "id": "2",
+    "name": "刷新货物",
+    "className": "RefreshGoods",
+    "unlock": 2,
+    "probability": 10,
+    "cost": 15,
+    "describe": "刷新货物"
+  },
+  {
+    "id": "3",
+    "name": "高端货物",
+    "className": "PremiumGoods",
+    "unlock": 2,
+    "probability": 5,
+    "cost": 30,
+    "describe": "如果可以,所有货物商品变为高1|稀有度|的随机商品\n(如果为无则继续提高,不会超过上限)"
+  },
+  {
+    "id": "4",
+    "name": "盲盒",
+    "className": "BlindBox",
+    "unlock": 2,
+    "probability": 10,
+    "cost": 25,
+    "describe": "只有在购买后才可以知道是什么"
+  },
+  {
+    "id": "5",
+    "name": "强化道具",
+    "className": "IntensifyPropC",
+    "unlock": 2,
+    "probability": 8,
+    "cost": 0,
+    "describe": "带有强化标签的道具"
+  },
+  {
+    "id": "6",
+    "name": "食物道具",
+    "className": "FoodPropC",
+    "unlock": 2,
+    "probability": 10,
+    "cost": 0,
+    "describe": ""
+  },
+  {
+    "id": "7",
+    "name": "其他道具",
+    "className": "PropC",
+    "unlock": 2,
+    "probability": 12,
+    "cost": 0,
+    "describe": ""
+  },
+  {
+    "id": "8",
+    "name": "放置单位",
+    "className": "PlacementC",
+    "unlock": 2,
+    "probability": 15,
+    "cost": 0,
+    "describe": ""
+  },
+  {
+    "id": "9",
+    "name": "随机智核",
+    "className": "RandomCoreC",
+    "unlock": 18,
+    "probability": 15,
+    "cost": 50,
+    "describe": ""
+  },
+  {
+    "id": "10",
+    "name": "指定智核",
+    "className": "AssignCoreC",
+    "unlock": 18,
+    "probability": 5,
+    "cost": 75,
+    "describe": ""
+  },
+  {
+    "id": "12",
+    "name": "单位",
+    "className": "UnitC",
+    "unlock": 2,
+    "probability": 0,
+    "cost": 150,
+    "describe": ""
+  }
+]

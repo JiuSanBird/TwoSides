@@ -1,0 +1,17 @@
+<Project Sdk="Godot.NET.Sdk/4.7.2">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="scripts\KernelClass\Commodity\**" />
+    <EmbeddedResource Remove="scripts\KernelClass\Commodity\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\Godot\UI\" />
+    <Folder Include="scripts\Godot\Map\" />
+    <Folder Include="scripts\KernelClass\Economy\Booty\Sub\" />
+  </ItemGroup>
+</Project>

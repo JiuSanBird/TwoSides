@@ -1,0 +1,8 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Visual Studio / .NET build artifacts
+.vs/
+bin/
+obj/

@@ -1,0 +1,249 @@
+[
+  {
+    "id": "001",
+    "name": "行进",
+    "className": "Walk",
+    "rarity": 0,
+    "label": [
+      1,
+      8
+    ],
+    "maxCooling": 2,
+    "effectScope": -1,
+    "selectDistance": 3,
+    "selectType": 6,
+    "describe": "快步行至目标点",
+    "par": []
+  },
+  {
+    "id": "004",
+    "name": "扑脸",
+    "className": "FlopFace",
+    "rarity": 2,
+    "label": [
+      1,
+      2,
+      8
+    ],
+    "maxCooling": 3,
+    "effectScope": -1,
+    "selectDistance": 2,
+    "selectType": 4,
+    "describe": "扑向目标,到达目标面前对其进攻\n路径中的目标将阻拦此技能",
+    "par": []
+  },
+  {
+    "id": "025",
+    "name": "啃咬",
+    "className": "Nibble",
+    "rarity": 4,
+    "label": [
+      2
+    ],
+    "maxCooling": 2,
+    "effectScope": 0,
+    "selectDistance": 1,
+    "selectType": 2,
+    "describe": "啃咬目标,对其造成{参数}%进攻伤害,并施加|流血|状态({参数})",
+    "par": [
+      125,
+      20
+    ]
+  },
+  {
+    "id": "043",
+    "name": "拙劣顺劈",
+    "className": "ClumsyCleave",
+    "rarity": 1,
+    "label": [
+      2,
+      8
+    ],
+    "maxCooling": 3,
+    "effectScope": 0,
+    "selectDistance": 1,
+    "selectType": 2,
+    "describe": "一剑劈下,对目标造成{参数}%进攻伤害,并|斩杀|({参数})\n如果目标有|圣盾|,那么将先对其{参数}次没有伤害的伤害\n击杀单位刷新此技能冷却",
+    "par": [
+      125,
+      5,
+      1
+    ]
+  },
+  {
+    "id": "044",
+    "name": "贯穿",
+    "className": "",
+    "rarity": 3,
+    "label": [
+      2
+    ],
+    "maxCooling": 3,
+    "effectScope": -1,
+    "selectDistance": 3,
+    "selectType": 2,
+    "describe": "对路径中的单位造成伤害,每穿过一个单位,伤害-{参数}%",
+    "par": [
+      20
+    ]
+  },
+  {
+    "id": "048",
+    "name": "击退射杀",
+    "className": "RepelKill",
+    "rarity": 5,
+    "label": [
+      2
+    ],
+    "maxCooling": 3,
+    "effectScope": 0,
+    "selectDistance": 3,
+    "selectType": 2,
+    "describe": "对敌人造成|成长伤害|({参数},{参数}),并击退",
+    "par": [
+      100,
+      50
+    ]
+  },
+  {
+    "id": "071",
+    "name": "瞄准",
+    "className": "Aim",
+    "rarity": 7,
+    "label": [],
+    "maxCooling": 2,
+    "effectScope": 0,
+    "selectDistance": 5,
+    "selectType": 2,
+    "describe": "下次进攻|暴击概率|+{参数}%\n对目标施加|标记|状态({参数})",
+    "par": [
+      120,
+      1
+    ]
+  },
+  {
+    "id": "074",
+    "name": "恐怖尖啸",
+    "className": "HorrorScream",
+    "rarity": 6,
+    "label": [],
+    "maxCooling": 3,
+    "effectScope": 0,
+    "selectDistance": 0,
+    "selectType": 3,
+    "describe": "对周围目标施加|恐惧|",
+    "par": []
+  },
+  {
+    "id": "075",
+    "name": "盛怒尖啸",
+    "className": "FuryScream",
+    "rarity": 6,
+    "label": [],
+    "maxCooling": 3,
+    "effectScope": -1,
+    "selectDistance": 2,
+    "selectType": 2,
+    "describe": "范围内己方单位立即对目标触发|狂潮|",
+    "par": []
+  },
+  {
+    "id": "102",
+    "name": "魔王之意",
+    "className": "DemonLordWill",
+    "rarity": 7,
+    "label": [
+      1
+    ],
+    "maxCooling": 3,
+    "effectScope": -1,
+    "selectDistance": 3,
+    "selectType": 6,
+    "describe": "瞬移至目标点,并对,临近敌人造成#混沌值#点伤害",
+    "par": []
+  },
+  {
+    "id": "106",
+    "name": "艳阳高照",
+    "className": "BlazingSun",
+    "rarity": 6,
+    "label": [
+      2
+    ],
+    "maxCooling": 1,
+    "effectScope": 0,
+    "selectDistance": 2,
+    "selectType": 2,
+    "describe": "目标剩余生命值越高,伤害越高,最高提升{参数}%",
+    "par": [
+      100
+    ]
+  },
+  {
+    "id": "107",
+    "name": "日光审判",
+    "className": "SunlightJudgment",
+    "rarity": 9,
+    "label": [
+      3
+    ],
+    "maxCooling": 3,
+    "effectScope": 0,
+    "selectDistance": 2,
+    "selectType": 2,
+    "describe": "小概率|斩杀|({参数})目标,概率随|生命值|减少而增加,成功|斩杀|后回复相应|生命值|\n(概率:已损失生命值百分比*{参数}%)",
+    "par": [
+      100,
+      50
+    ]
+  },
+  {
+    "id": "123",
+    "name": "打靶",
+    "className": "TargetPractice",
+    "rarity": 2,
+    "label": [
+      4
+    ],
+    "maxCooling": 2,
+    "effectScope": 0,
+    "selectDistance": 10,
+    "selectType": 2,
+    "describe": "对目标施加|标记|",
+    "par": []
+  },
+  {
+    "id": "153",
+    "name": "藏品展示",
+    "className": "CollectionDisplay",
+    "rarity": 5,
+    "label": [
+      5
+    ],
+    "maxCooling": 3,
+    "effectScope": -1,
+    "selectDistance": 2,
+    "selectType": 6,
+    "describe": "召唤|(同族, 继承, {参数})",
+    "par": [
+      3
+    ]
+  },
+  {
+    "id": "154",
+    "name": "藏品挑选",
+    "className": "CollectionPicking",
+    "rarity": 5,
+    "label": [
+      4
+    ],
+    "maxCooling": 3,
+    "effectScope": 0,
+    "selectDistance": 3,
+    "selectType": 2,
+    "describe": "对目标施加|标记| |恐惧|, 压力+{参数}",
+    "par": [
+      50
+    ]
+  }
+]

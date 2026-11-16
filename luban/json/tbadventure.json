@@ -1,0 +1,18 @@
+[
+  {
+	"id": "1",
+	"name": "婪商慈善小摊",
+	"className": "BusinessChain",
+	"unlock": 1,
+	"rarity": 0,
+	"describe": "商城"
+  },
+  {
+	"id": "3",
+	"name": "无名之尸",
+	"className": "NamelessCorpse",
+	"unlock": 1,
+	"rarity": 1,
+	"describe": "一具横尸"
+  }
+]

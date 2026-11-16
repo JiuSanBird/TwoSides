@@ -1,0 +1,71 @@
+[
+  {
+	"id": "1",
+	"name": "收集粉尘",
+	"className": "GatherDust",
+	"probability": 25,
+	"repeatable": false,
+	"describe": "获得|粉尘|*#X#",
+	"par": []
+  },
+  {
+	"id": "3",
+	"name": "吞吐粉尘",
+	"className": "ThroughputDust",
+	"probability": 20,
+	"repeatable": false,
+	"describe": "|生命值|回复{参数}%",
+	"par": [
+	  20
+	]
+  },
+  {
+	"id": "2",
+	"name": "吸入粉尘",
+	"className": "InhalationDust",
+	"probability": 10,
+	"repeatable": true,
+	"describe": "获得#强化#,有{参数}%几率感染|秽病|",
+	"par": [
+	  10
+	]
+  },
+  {
+	"id": "4",
+	"name": "忍受粉尘",
+	"className": "EndureDust",
+	"probability": 10,
+	"repeatable": false,
+	"describe": "在粉尘中寻觅战利品,获得另外两个选项的奖励, 压力+{参数}",
+	"par": [
+	  50
+	]
+  },
+  {
+	"id": "5",
+	"name": "拿走道具",
+	"className": "TakeProp",
+	"probability": 15,
+	"repeatable": true,
+	"describe": "获得#相应物品#",
+	"par": []
+  },
+  {
+	"id": "6",
+	"name": "拿走放置单位",
+	"className": "TakePlacement",
+	"probability": 10,
+	"repeatable": true,
+	"describe": "获得#相应物品#",
+	"par": []
+  },
+  {
+	"id": "7",
+	"name": "拿走智核",
+	"className": "TakeCore",
+	"probability": 10,
+	"repeatable": true,
+	"describe": "获得#相应物品#",
+	"par": []
+  }
+]
